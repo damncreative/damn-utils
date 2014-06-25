@@ -1,7 +1,23 @@
 {
   "name": "damn-utils",
   "version": "0.0.1",
+  "description": "Collection of some utilities",
   "author": "damn creative <info@damncreative.de>",
   "liecnse": "MIT",
-  "main": "index.js"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:damncreative/damn-utils.git"
+  },
+  "keywords": [
+    "damn",
+    "utils"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
