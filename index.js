@@ -1,4 +1,5 @@
 var fs = require('fs');
+require('coffee-script/register');
 
 exports = module.exports;
 

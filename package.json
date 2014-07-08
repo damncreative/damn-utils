@@ -1,6 +1,6 @@
 {
   "name": "damn-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of some utilities",
   "author": "damn creative <info@damncreative.de>",
   "liecnse": "MIT",
@@ -19,5 +19,9 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "debug": "^1.0.2"
   }
 }
