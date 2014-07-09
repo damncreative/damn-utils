@@ -1,17 +1,10 @@
-var fs = require('fs');
+var path = require('path');
 require('coffee-script/register');
 
 exports = module.exports;
+var ModuleUtil = require('./lib/ModuleUtil');
+var utils = ModuleUtil.requireFolder(path.join(__dirname, './lib'));
 
-function walk(path) {
-  fs.readdirSync(path).forEach(function(file){
-    var sub = path + '/' + file;
-    var stat = fs.statSync(sub);
-    if(stat.isFile()) {
-      var name = file.split(".")[0];
-      exports[name] = require(sub);
-    }
-  });
-};
-
-walk(__dirname + '/lib');
+for(util in utils) {
+  exports[util] = utils[util];
+}
