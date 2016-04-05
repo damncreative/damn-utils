@@ -11,6 +11,6 @@ damn-utils
 
 [![NPM](https://nodei.co/npm/damn-utils.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/damn-utils/)
 
-Collection of different utility methods.
+Collection of some damn utilities.
 
 Documentation coming soon.

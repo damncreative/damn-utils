@@ -1,7 +1,7 @@
 {
   "name": "damn-utils",
   "version": "0.0.4",
-  "description": "Collection of some utilities",
+  "description": "Collection of some damn utilities",
   "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha test",
