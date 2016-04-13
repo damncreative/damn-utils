@@ -1,6 +1,6 @@
 {
   "name": "damn-utils",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Collection of some damn utilities",
   "main": "lib/index.js",
   "scripts": {
